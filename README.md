@@ -227,17 +227,7 @@ Sample Get Request:
 
             curl -X GET "https://test.deribit.com/api/v2/public/auth?client_id=qP-eQ_jt&client_secret=L6wIaR-tQEnJrQzI-nHnJMg-dPNJ2CMu0EPLdhPBc0g&grant_type=client_credentials"
 
-      {
-            "id": 1,
-            "method": "public/auth",
-            "params": {
-            "grant_type": "client_credentials",
-            "scope": "session:apiconsole-5z0az0aw5hl",
-            "client_id": "qP-eQ_jt",
-            "client_secret": "L6wIaR-tQEnJrQzI-nHnJMg-dPNJ2CMu0EPLdhPBc0g"
-            },
-            "jsonrpc": "2.0"
-      }
+
 
 Sample Response:
 
