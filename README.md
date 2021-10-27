@@ -1,4 +1,4 @@
-# Getting Started
+# Crypto web service
 
 Deribit web service returns the data from Deribit Exchange through REST API.
 
