@@ -11,7 +11,8 @@ Sample Get request:
             curl -X GET "http://localhost:8080/get_account_summary?currency=BTC&extended=true"
 
 Sample Response: 
-            {
+
+    {
                         "jsonrpc": "2.0",
                         "result": {
                         "total_pl": 0,
@@ -60,7 +61,7 @@ Sample Response:
                         "usOut": 1634836111317313,
                         "usDiff": 621,
                         "testnet": true
-            }
+   }
 
 2. Getting history of withdrawals and deposits.
 
@@ -99,6 +100,7 @@ Sample Request:
             curl -X GET "http://localhost:8080/get_withdrawals?count=10&currency=BTC&offset=0"
 
 Sample Response:
+    
     {
                 "jsonrpc": "2.0",
                 "result": {
@@ -147,6 +149,7 @@ Sample Request:
             curl -X GET "http://localhost:8080/withdraw?address=2MtT6fquvjFDYb87ZBDwK6r7jUCpa71RBTp&amount=0.1&currency=BTC&priority=high"
 
 Sample Response:
+   
    {
                "jsonrpc": "2.0",
                "id": 2745,
@@ -176,6 +179,7 @@ Sample Request:
             curl -X GET "http://localhost:8080/submit_transfer_to_subaccount?amount=0.4&currency=BTC&destination=34536"
 
 Sample Response:
+    
     {
                 "jsonrpc": "2.0",
                 "result": {
