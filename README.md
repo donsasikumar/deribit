@@ -71,29 +71,31 @@ Sample Request:
             curl -X GET "http://localhost:8080/get_deposits?count=10&currency=BTC&offset=0"
 
 Sample Response:
-   
-   {
-               "jsonrpc": "2.0",
-               "result": {
-               "data": [
-               {
-               "updated_timestamp": 1634835930268,
-               "transaction_id": "35aca7ddc66688fb496ad8ffcb05751bacfbffadf16795e1392706af0c4df047",
-               "state": "completed",
-               "received_timestamp": 1634835886216,
-               "note": "",
-               "currency": "BTC",
-               "amount": 100,
-               "address": "2N1W5r69hxzipiYWVMa2V9XhvS8buGGXk2Y"
-               }
-               ],
-               "count": 1
-               },
-               "usIn": 1635290982465444,
-               "usOut": 1635290982465622,
-               "usDiff": 178,
-               "testnet": true
+
+
+       {
+            "jsonrpc": "2.0",
+                           "result": {
+                           "data": [
+                           {
+                           "updated_timestamp": 1634835930268,
+                           "transaction_id": "35aca7ddc66688fb496ad8ffcb05751bacfbffadf16795e1392706af0c4df047",
+                           "state": "completed",
+                           "received_timestamp": 1634835886216,
+                           "note": "",
+                           "currency": "BTC",
+                           "amount": 100,
+                           "address": "2N1W5r69hxzipiYWVMa2V9XhvS8buGGXk2Y"
+                           }
+                           ],
+                           "count": 1
+                           },
+                           "usIn": 1635290982465444,
+                           "usOut": 1635290982465622,
+                           "usDiff": 178,
+                           "testnet": true
    }
+
 
 Withdrawals
 
@@ -150,8 +152,9 @@ Sample Request:
             curl -X GET "http://localhost:8080/withdraw?address=2MtT6fquvjFDYb87ZBDwK6r7jUCpa71RBTp&amount=0.1&currency=BTC&priority=high"
 
 Sample Response:
-   
-   {
+
+
+       {
                "jsonrpc": "2.0",
                "id": 2745,
                "result": {
@@ -172,7 +175,8 @@ Sample Response:
                }
                ]
                }
-     }
+   }
+
 
 4. Transfer between main account and sub account.
 
