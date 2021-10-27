@@ -71,6 +71,7 @@ Sample Request:
             curl -X GET "http://localhost:8080/get_deposits?count=10&currency=BTC&offset=0"
 
 Sample Response:
+   
    {
                "jsonrpc": "2.0",
                "result": {
@@ -171,7 +172,7 @@ Sample Response:
                }
                ]
                }
-   }
+     }
 
 4. Transfer between main account and sub account.
 
